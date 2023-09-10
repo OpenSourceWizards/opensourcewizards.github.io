@@ -7,12 +7,12 @@ function useHead() {
   const { asPath } = useRouter();
   const { frontMatter, title } = useConfig();
   const url = `https://opensourcewizards.github.io${asPath}`;
-  const description = frontMatter.description || "Documentation for Open Source Wizards's resources for FiveM/RedM";
+  const description = frontMatter.description || "Documentation for Open Source Wizards's resources for HavocRP";
 
   return (
     <>
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <link rel="icon" type="image/x-icon" href="/static/ox.ico" />
+      <link rel="icon" type="image/x-icon" href="/static/osw.ico" />
       <meta httpEquiv="Content-Language" content="en" />
       <meta name="description" content={description} />
       <meta name="og:title" content={title} />

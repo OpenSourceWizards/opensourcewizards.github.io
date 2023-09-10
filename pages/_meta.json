@@ -1,8 +1,6 @@
 {
   "index": "Introduction",
   "guides": "Guides",
-  "oxmysql": "OxMySQL",
-  "ox_lib": "Ox Lib",
   "creator_codes": {
     "title": "Creator codes",
     "type": "page",
