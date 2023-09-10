@@ -8,7 +8,7 @@ import { Steps } from 'nextra-theme-docs';
 import { Callout } from 'nextra/components';
 import ResourceLinks from '@components/resource-links';
 
-<ResourceLinks repo="https://github.com/opensourcewizards/oxmysql" />
+<ResourceLinks repo="https://github.com/overextended/oxmysql" />
 
 A replacement of mysql-async and ghmattimysql with expanded API and improved compatibility for MySQL 8.
 
@@ -30,7 +30,7 @@ Do not setup XAMPP just to run your database, and install [MariaDB](https://mari
 
 <Steps>
 
-### Download the [latest release](https://github.com/opensourcewizards/oxmysql/releases/latest).
+### Download the [latest release](https://github.com/overextended/oxmysql/releases/latest).
 
 ### Configure your server
 
@@ -102,7 +102,7 @@ The `mysql-async` directory must be deleted to properly provide support.
 - 🗹 Supports `server_script '@mysql-async/lib/MySQL.lua'`.
 - 🗹 Supports `MySQL.Sync` and `MySQL.Async` methods.
 - ☐ Raw exports are not supported (i.e. `exports['mysql-async].mysql_execute`).
-- ☐ Multi-statements are disabled for security reasons (see [#102](https://github.com/opensourcewizards/oxmysql/issues/102)).
+- ☐ Multi-statements are disabled for security reasons (see [#102](https://github.com/overextended/oxmysql/issues/102)).
 
 ### ghmattimysql compatibility
 
@@ -135,23 +135,23 @@ If you're using [Lua Language Server](https://marketplace.visualstudio.com/items
 
 ### JavaScript
 
-You can use raw exports, or install [our npm package](https://www.npmjs.com/package/@opensourcewizards/oxmysql) for intellisense and similar usage as Lua.
+You can use raw exports, or install [our npm package](https://www.npmjs.com/package/@overextended/oxmysql) for intellisense and similar usage as Lua.
 
 ```bash
 # With pnpm
-pnpm add @opensourcewizards/oxmysql
+pnpm add @overextended/oxmysql
 
 # With Yarn
-yarn add @opensourcewizards/oxmysql
+yarn add @overextended/oxmysql
 
 # With npm
-npm install @opensourcewizards/oxmysql
+npm install @overextended/oxmysql
 ```
 
 Import the oxmysql object into your resource.
 
 ```js
-import { oxmysql as MySQL } from '@opensourcewizards/oxmysql';
+import { oxmysql as MySQL } from '@overextended/oxmysql';
 ```
 
 ## Upserting

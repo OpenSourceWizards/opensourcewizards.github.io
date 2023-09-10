@@ -17,7 +17,7 @@ print(json.encode(player, { indent = true }))
 <Tab>
 
 ```ts
-import { GetPlayer } from '@opensourcewizards/ox_core/server';
+import { GetPlayer } from '@overextended/ox_core/server';
 
 const player = GetPlayer(source);
 console.log(JSON.stringify(player));
@@ -42,7 +42,7 @@ print(json.encode(player, { indent = true }))
 <Tab>
 
 ```ts
-import { GetPlayerByFilter } from '@opensourcewizards/ox_core/server';
+import { GetPlayerByFilter } from '@overextended/ox_core/server';
 
 const filter = { phoneNumber: '556-560-6609' };
 const player = GetPlayerByFilter(filter);
@@ -75,7 +75,7 @@ end
 <Tab>
 
 ```ts
-import { GetPlayers } from '@opensourcewizards/ox_core/server';
+import { GetPlayers } from '@overextended/ox_core/server';
 
 // Get an array containing all players in the police or sheriff groups, with grade 3 or higher.
 const filter = { groups: { sheriff: 3, police: 3 } })

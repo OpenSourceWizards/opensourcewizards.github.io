@@ -7,13 +7,13 @@ function useHead() {
   const { asPath } = useRouter();
   const { frontMatter, title } = useConfig();
   const url = `https://opensourcewizards.github.io${asPath}`;
-  const description = frontMatter.description || "Documentation for opensourcewizards's resources for FiveM";
+  const description = frontMatter.description || "Documentation for Overextended's resources for FiveM/RedM";
 
   return (
     <>
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <link rel="icon" type="image/x-icon" href="/static/ox.ico" />
-      <meta httpEquiv="Content-Language" content="tr" />
+      <meta httpEquiv="Content-Language" content="en" />
       <meta name="description" content={description} />
       <meta name="og:title" content={title} />
       <meta name="og:description" content={description} />
@@ -25,7 +25,7 @@ function useHead() {
 function useNextSeoProps() {
   const { asPath } = useRouter();
   const arr = asPath.replace(/[-_]/g, ' ').split('/');
-  const category = (arr[1][0] !== '#' && arr[1]) || 'opensourcewizards';
+  const category = (arr[1][0] !== '#' && arr[1]) || 'Overextended';
   const rawTitle = arr[arr.length - 1];
   const title = /[a-z]/.test(rawTitle) && /[A-Z]/.test(rawTitle) ? rawTitle : '%s';
 
@@ -42,23 +42,23 @@ const config: DocsThemeConfig = {
       style={{
         paddingLeft: '50px',
         lineHeight: '38px',
-        background: "url('https://avatars.githubusercontent.com/u/142421395?s=38') no-repeat left",
+        background: "url('https://avatars.githubusercontent.com/u/88127058?s=38') no-repeat left",
         backgroundSize: '38px',
         fontWeight: 550,
       }}
     >
-      opensourcewizards
+      Overextended
     </div>
   ),
   project: {
-    link: 'https://github.com/opensourcewizards/opensourcewizards.github.io',
+    link: 'https://github.com/overextended/overextended.github.io',
   },
   chat: {
-    link: 'https://discord.opensourcewizards.dev',
+    link: 'https://discord.overextended.dev',
   },
-  docsRepositoryBase: 'https://github.com/opensourcewizards/opensourcewizards.github.io/blob/main',
+  docsRepositoryBase: 'https://github.com/overextended/overextended.github.io/blob/main',
   footer: {
-    text: 'Open Source Wizards',
+    text: 'Overextended',
   },
   // search: {
   //   component: <Search />,
