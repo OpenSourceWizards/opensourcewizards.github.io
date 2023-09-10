@@ -7,7 +7,7 @@ function useHead() {
   const { asPath } = useRouter();
   const { frontMatter, title } = useConfig();
   const url = `https://opensourcewizards.github.io${asPath}`;
-  const description = frontMatter.description || "Documentation for Overextended's resources for FiveM/RedM";
+  const description = frontMatter.description || "Documentation for Open Source Wizards's resources for FiveM/RedM";
 
   return (
     <>
@@ -25,7 +25,7 @@ function useHead() {
 function useNextSeoProps() {
   const { asPath } = useRouter();
   const arr = asPath.replace(/[-_]/g, ' ').split('/');
-  const category = (arr[1][0] !== '#' && arr[1]) || 'Overextended';
+  const category = (arr[1][0] !== '#' && arr[1]) || 'Open Source Wizards';
   const rawTitle = arr[arr.length - 1];
   const title = /[a-z]/.test(rawTitle) && /[A-Z]/.test(rawTitle) ? rawTitle : '%s';
 
@@ -42,23 +42,23 @@ const config: DocsThemeConfig = {
       style={{
         paddingLeft: '50px',
         lineHeight: '38px',
-        background: "url('https://avatars.githubusercontent.com/u/88127058?s=38') no-repeat left",
+        background: "url('https://avatars.githubusercontent.com/u/142421395?s=38&v=4') no-repeat left",
         backgroundSize: '38px',
         fontWeight: 550,
       }}
     >
-      Overextended
+      Open Source Wizards
     </div>
   ),
   project: {
-    link: 'https://github.com/overextended/overextended.github.io',
+    link: 'https://github.com/opensourcewizards/opensourcewizards.github.io',
   },
   chat: {
-    link: 'https://discord.overextended.dev',
+    link: 'https://discord.opensourcewizards.dev',
   },
-  docsRepositoryBase: 'https://github.com/overextended/overextended.github.io/blob/main',
+  docsRepositoryBase: 'https://github.com/opensourcewizards/opensourcewizards.github.io/blob/main',
   footer: {
-    text: 'Overextended',
+    text: 'Open Source Wizards',
   },
   // search: {
   //   component: <Search />,
