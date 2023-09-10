@@ -1,4 +1,4 @@
-# Overextended Resources Documentation
+# Open Source Wizards Resources Documentation
 
 ## Local Development
 
