@@ -1,0 +1,14 @@
+{
+  "index": "Introduction",
+  "guides": "Guides",
+  "creator_codes": {
+    "title": "Creator codes",
+    "type": "page",
+    "href": "https://opensourcewizards.github.io/#creator-codes"
+  },
+  "support": {
+    "title": "Support us",
+    "type": "page",
+    "href": "https://opensourcewizards.github.io/#support-our-team"
+  }
+}
