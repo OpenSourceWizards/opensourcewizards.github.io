@@ -58,7 +58,7 @@ const config: DocsThemeConfig = {
   },
   docsRepositoryBase: 'https://github.com/opensourcewizards/opensourcewizards.github.io/blob/main',
   footer: {
-    text: 'Open Source Wizards, &copy; 2023 Tüm Hakları Saklıdır.',
+    text: 'Open Source Wizards, © 2023 Tüm Hakları Saklıdır.',
   },
   // search: {
   //   component: <Search />,
