@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://opensourcewizards.github.io/
+
+# Sitemaps
+Sitemap: https://opensourcewizards.github.io/sitemap.xml
