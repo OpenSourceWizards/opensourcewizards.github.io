@@ -1,7 +1,7 @@
 {
-  "name": "nextra-docs-template",
+  "name": "opensourcewizards",
   "version": "0.0.1",
-  "description": "Nextra docs template",
+  "description": "Fivem roleplay sunucu alt yapısı",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/shuding/nextra-docs-template.git"
+    "url": "git+https://github.com/OpenSourceWizards/opensourcewizards.github.io.git"
   },
-  "author": "Shu Ding <g@shud.in>",
+  "author": "Yankı Küçük <kendinikertenkelebek@me.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/shuding/nextra-docs-template/issues"
+    "url": "https://github.com/OpenSourceWizards/opensourcewizards.github.io/issues"
   },
-  "homepage": "https://github.com/shuding/nextra-docs-template#readme",
+  "homepage": "https://github.com/OpenSourceWizards/opensourcewizards.github.io#readme",
   "dependencies": {
     "@docsearch/css": "3",
     "@docsearch/react": "3",
