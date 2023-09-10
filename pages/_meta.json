@@ -1,14 +1,9 @@
 {
-  "index": "Introduction",
-  "guides": "Guides",
-  "creator_codes": {
-    "title": "Creator codes",
-    "type": "page",
-    "href": "https://opensourcewizards.github.io/#creator-codes"
-  },
+  "index": "Giriş",
+  "guides": "Rehber",
   "support": {
-    "title": "Support us",
+    "title": "Bizi Destekleyin!",
     "type": "page",
-    "href": "https://opensourcewizards.github.io/#support-our-team"
+    "href": "https://opensourcewizards.github.io/#bizi-destekleyin"
   }
 }
