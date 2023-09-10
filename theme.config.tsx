@@ -13,7 +13,7 @@ function useHead() {
     <>
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <link rel="icon" type="image/x-icon" href="/static/osw.ico" />
-      <meta httpEquiv="Content-Language" content="en" />
+      <meta httpEquiv="Content-Language" content="tr" />
       <meta name="description" content={description} />
       <meta name="og:title" content={title} />
       <meta name="og:description" content={description} />
@@ -51,14 +51,14 @@ const config: DocsThemeConfig = {
     </div>
   ),
   project: {
-    link: 'https://github.com/opensourcewizards/opensourcewizards.github.io',
+    link: 'https://github.com/OpenSourceWizards',
   },
   chat: {
-    link: 'https://discord.opensourcewizards.dev',
+    link: 'https://discord.gg/2Y9TkaTTVZ',
   },
   docsRepositoryBase: 'https://github.com/opensourcewizards/opensourcewizards.github.io/blob/main',
   footer: {
-    text: 'Open Source Wizards',
+    text: 'Open Source Wizards, &copy; 2023 Tüm Hakları Saklıdır.',
   },
   // search: {
   //   component: <Search />,
