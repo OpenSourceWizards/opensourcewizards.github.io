@@ -1,9 +1,10 @@
 {
   "index": "Giriş",
   "guides": "Rehber",
+  "ox_core": "Başka Şeyler",
   "support": {
     "title": "Bizi Destekleyin!",
     "type": "page",
-    "href": "https://opensourcewizards.github.io/#bizi-destekleyin"
+    "href": "https://opensourcewizards.github.io/#ekibimizi-destekleyin"
   }
 }
