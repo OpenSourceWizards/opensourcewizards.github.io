@@ -6,7 +6,7 @@ import Search from '@components/Search';
 function useHead() {
   const { asPath } = useRouter();
   const { frontMatter, title } = useConfig();
-  const url = `https://opensourcewizards.github.io${asPath}`;
+  const url = `https://opensourcewizards.works${asPath}`;
   const description = frontMatter.description || "Documentation for Open Source Wizards's resources for HavocRP";
 
   return (
@@ -56,7 +56,7 @@ const config: DocsThemeConfig = {
   chat: {
     link: 'https://discord.gg/2Y9TkaTTVZ',
   },
-  docsRepositoryBase: 'https://github.com/opensourcewizards/opensourcewizards.github.io/blob/main',
+  docsRepositoryBase: 'https://github.com/opensourcewizards/opensourcewizards.works/blob/main',
   footer: {
     text: 'Open Source Wizards, © 2023 Tüm Hakları Saklıdır.',
   },

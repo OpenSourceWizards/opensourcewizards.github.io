@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/OpenSourceWizards/opensourcewizards.github.io.git"
+    "url": "git+https://github.com/OpenSourceWizards/opensourcewizards.works.git"
   },
   "author": "Yankı Küçük <kendinikertenkelebek@me.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/OpenSourceWizards/opensourcewizards.github.io/issues"
+    "url": "https://github.com/OpenSourceWizards/opensourcewizards.works/issues"
   },
-  "homepage": "https://github.com/OpenSourceWizards/opensourcewizards.github.io#readme",
+  "homepage": "https://github.com/OpenSourceWizards/opensourcewizards.works#readme",
   "dependencies": {
     "@docsearch/css": "3",
     "@docsearch/react": "3",
