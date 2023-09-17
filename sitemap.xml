@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
-<url><loc>https://opensourcewizards.works</loc><lastmod>2023-09-17T16:46:17.566Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://opensourcewizards.works/guides/git</loc><lastmod>2023-09-17T16:46:17.566Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://opensourcewizards.works/guides/nodejs</loc><lastmod>2023-09-17T16:46:17.566Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://opensourcewizards.works/guides/vscode</loc><lastmod>2023-09-17T16:46:17.566Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://opensourcewizards.works/guides/vscode/recommended</loc><lastmod>2023-09-17T16:46:17.566Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://opensourcewizards.works/osw-archive</loc><lastmod>2023-09-17T16:46:17.566Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://opensourcewizards.works/osw-archive/Options</loc><lastmod>2023-09-17T16:46:17.566Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://opensourcewizards.works/osw-blips</loc><lastmod>2023-09-17T16:46:17.566Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://opensourcewizards.works/osw-blips/Options</loc><lastmod>2023-09-17T16:46:17.566Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://opensourcewizards.works/osw-core</loc><lastmod>2023-09-17T16:46:17.566Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://opensourcewizards.works/osw-library</loc><lastmod>2023-09-17T16:46:17.566Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://opensourcewizards.works</loc><lastmod>2023-09-17T17:10:55.873Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://opensourcewizards.works/guides/git</loc><lastmod>2023-09-17T17:10:55.873Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://opensourcewizards.works/guides/nodejs</loc><lastmod>2023-09-17T17:10:55.873Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://opensourcewizards.works/guides/vscode</loc><lastmod>2023-09-17T17:10:55.873Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://opensourcewizards.works/guides/vscode/recommended</loc><lastmod>2023-09-17T17:10:55.873Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://opensourcewizards.works/osw-archive</loc><lastmod>2023-09-17T17:10:55.873Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://opensourcewizards.works/osw-archive/Options</loc><lastmod>2023-09-17T17:10:55.873Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://opensourcewizards.works/osw-blips</loc><lastmod>2023-09-17T17:10:55.873Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://opensourcewizards.works/osw-blips/Options</loc><lastmod>2023-09-17T17:10:55.873Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://opensourcewizards.works/osw-core</loc><lastmod>2023-09-17T17:10:55.873Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://opensourcewizards.works/osw-library</loc><lastmod>2023-09-17T17:10:55.873Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
 </urlset>
