@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Host
-Host: https://opensourcewizards.github.io/
+Host: https://opensourcewizards.works/
 
 # Sitemaps
-Sitemap: https://opensourcewizards.github.io/sitemap.xml
+Sitemap: https://opensourcewizards.works/sitemap.xml
