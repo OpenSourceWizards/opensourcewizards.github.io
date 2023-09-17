@@ -7,7 +7,7 @@ function useHead() {
   const { asPath } = useRouter();
   const { frontMatter, title } = useConfig();
   const url = `https://opensourcewizards.works${asPath}`;
-  const description = frontMatter.description || "Documentation for Open Source Wizards's resources for HavocRP";
+  const description = frontMatter.description || "Documentation for Open Source Wizards's resources";
 
   return (
     <>
@@ -51,10 +51,10 @@ const config: DocsThemeConfig = {
     </div>
   ),
   project: {
-    link: 'https://github.com/OpenSourceWizards',
+    link: 'https://github.com/opensourcewizards',
   },
   chat: {
-    link: 'https://discord.gg/2Y9TkaTTVZ',
+    link: 'https://discord.gg/cjBcBrNxBk',
   },
   docsRepositoryBase: 'https://github.com/opensourcewizards/opensourcewizards.works/blob/main',
   footer: {
